@@ -1,0 +1,279 @@
+@media screen and (max-width: 768px) {
+
+    // ---------------------hero---------------------
+    .hero_content{
+        position: relative;
+    }
+
+    .hero_content-left, .hero_content-right{
+        display: block;
+        width: 100%;
+    }
+
+    .hero_content-left{
+        height: 60%;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .hero_content-pic{
+        height: 100%;
+        // width: 100%;
+        top: 0;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .content_left-img-burger{
+        left: 27px;
+        top: -30px;
+        width: 85%;
+    }
+
+    .content_left-svg-drops{
+        left: 33px;
+        top: -9px;
+        width: 85%;
+    }
+
+    .hero_content-right{
+        height: 37%;
+        position: absolute;
+        top: 0;
+        text-align: center;
+    }
+
+    // ---------------------burgers---------------------
+    .burgers_sections{
+        height: 100%;
+    }
+
+    .burgers_title-laptop{
+        display: block;
+        height: 25%;
+        text-align: center;
+        position: relative;
+        line-height: 50px;
+    }
+
+    .burgers_title-laptop-white{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .burgers_left, .burgers_right{
+        display: block;
+        width: 100%;
+    }
+
+    .burgers_left{
+        height: 45%;
+    }
+
+    .burgers_right{
+        height: 30%;
+    }
+
+    .burgers_left-container{
+        height: 100%;
+        position: relative;
+    }
+
+    .burgers_left-center, .burgers_left-bottom{
+        position: absolute;
+    }
+
+    .burgers_left-center{
+        text-align: center;
+        width: 100%;
+    }
+
+    .burgers_left-pic-wrapper{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 65%;
+        height: auto;
+    }
+
+    .burgers_left-pic{
+        width: 100%;
+        height: 100%;
+    }
+
+    .burgers_left-bottom{
+        bottom: 0;
+    }
+
+    .burgers_right-top-title{
+        display: none;
+    }
+
+    .burgers_right-top-text{
+        text-align: center;
+    }
+
+    .burgers_right-bottom-right{
+        text-align: right;
+    }
+
+    .burgers_right-bottom-button{
+        display: inline-block;
+    }
+
+    // ---------------------team---------------------
+    .team_bottom-left-img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .team_bottom-block-wrapper{
+        height: 80px;
+    }
+
+    .team_bottom-right-text{
+        height: 40px;
+    }
+
+    // ---------------------menu---------------------
+    .menu_list-text{
+        width: 450px;
+    }
+
+    // ---------------------order---------------------
+    .order_top{
+        height: 23%;
+    }
+
+    .order_bottom-left, .order_bottom-right{
+        width: 100%;
+    }
+
+    .order_bottom-right-top{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    .review_hover{
+        padding: 25px 15px;
+    }
+
+    .reviews_title{
+        margin-bottom: 10px;
+    }
+    .reviews_text{
+        height: 75%;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .hero_header-slide{
+        display: none;
+    }
+
+    // ---------------------team---------------------
+    .team_block{
+        width: 60%;
+    }
+
+    // ---------------------menu---------------------
+    .menu_list-text{
+        width: 350px;
+    }
+
+    // ---------------------fixed_menu---------------------
+    .fixed_menu{
+        right: 20px;
+        top: 25px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    // ---------------------best---------------------
+    .best_content-top{
+        font-size: 20px;
+    }
+
+    .best_content-text{
+        font-size: 13px;
+    }
+
+    // ---------------------team---------------------
+    .team_block{
+        width: 65%;
+    }
+
+    // ---------------------menu---------------------
+    .menu_list-description{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .menu_list-text{
+        width: 300px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .menu_list-text{
+        line-height: 17px;
+    }
+
+    // ---------------------reviews---------------------
+    .reviews_text{
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    // ---------------------order---------------------
+    .order_top-title{
+        width: min-content;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    // ---------------------hero---------------------
+    .title_all{
+        font-size: 55px;
+    }
+
+    .hero_content-right-text{
+        font-size: 55px;
+    }
+
+    // ---------------------menu---------------------
+    .menu_list-title{
+        width: 55px;
+
+        &:hover .menu_list-name{
+            font-size: 33px;
+        }
+    }
+
+    .menu_list-name{
+        height: 90px;
+        margin-top: -45px;
+        font-size: 30px;
+    }
+
+    .menu_active .menu_list-name{
+        font-size: 30px;
+    }
+
+    // ---------------------reviews---------------------
+    .reviews_batton{
+        padding: 9px 10px;
+
+        &:hover {
+        font-weight: 400;
+        font-size: 14px;
+        }
+    }
+}

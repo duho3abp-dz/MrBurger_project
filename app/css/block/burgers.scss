@@ -1,0 +1,304 @@
+.burgers{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9b43b+30,eb8d38+50,f9b43b+70 */
+    background: #f9b43b; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f9b43b 30%, #eb8d38 50%, #f9b43b 70%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f9b43b 30%,#eb8d38 50%,#f9b43b 70%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f9b43b 30%,#eb8d38 50%,#f9b43b 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9b43b', endColorstr='#f9b43b',GradientType=0 ); /* IE6-9 */
+}
+
+.burgers_title-laptop{
+    display: none;
+}
+
+.burgers_left,
+.burgers_right{
+    float: left;
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+
+.burgers_left{
+    z-index: 1;
+}
+
+.burgers_left-container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.burgers_left-top{
+    width: 100%;
+}
+
+.burgers_left-block{
+    display: inline-block;
+
+    &:hover .burgers_left-button-click{
+        background-color: rgb(227, 80, 40);
+    }
+}
+
+.burgers_left-block:hover .burgers_left-ingridients{
+    // display: inline-block;
+    // transform: scale(1);
+    // opacity: 1;
+    // width: 270px;
+    height: 340px;
+    transition: ease-in-out all .3s;
+}
+
+.burgers_left-button,
+.burgers_left-ingridients{
+    display: inline-block;
+}
+
+.burgers_left-button-img{
+    text-decoration: none;
+    color: #ffff;
+    cursor: default;
+}
+
+.burgers_left-button-click{
+    width: 90px;
+    height: 90px;
+    border-radius: 5px;
+    background-color: #f08c33;
+    text-align: center;
+    padding-top: 14px;
+    transition: all 0.3s ease-in-out;
+
+    // &:hover{
+    //     background-color: rgb(227, 80, 40);
+    // }
+}
+
+.burgers_left-title{
+    font-family: 'gagalin';
+    font-size: 14px;
+}
+
+.burgers_left-ingridients{
+    width: 270px;
+    height: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255,0.9); 
+    // padding: 20px 25px;  
+    position: absolute;
+    // display: none;
+    // transform: scale(0);
+    // opacity: 0;
+    z-index: 2;
+}
+
+.burgers_left-sections{
+    display: inline-block;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+.burgers_left-list{
+    margin: 20px 25px;
+}
+
+.burgers_left-line{
+    height: 50px;
+}
+
+.burgers_left-line-img,
+.burgers_left-line-text,
+.burgers_left-line-gramm{
+    float: left;
+    // text-align: center;
+    width: 31%;
+    vertical-align: middle;
+}
+
+.burgers_left-line-img{
+    width: 80px;
+    // text-align: left;
+}
+
+.burgers_left-line-text{
+    margin-top: 10px;
+}
+
+.burgers_left-line-gramm{
+    text-align: right;
+    margin-top: 12px;
+    font-weight: 300;
+}
+
+// .burgers_left-center{
+//     position: relative;
+//     width: 100%;
+//     height: 350px;
+//     // overflow: hidden;
+// }
+
+.wibro_burg:hover{
+    animation: 0.1s tremor ease-out infinite; 
+}
+
+@keyframes tremor {
+    0%, 25% {
+        left: -1px;
+        transform: translateX(-0.5%);
+    }
+    50%, 100% {
+        left: 1px;
+        transform: translateX(0.5%);
+    }
+}
+
+.burgers_left-pic{
+    // margin-left: -50px;
+    // position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    // background-size: contain;
+}
+
+.burgers_left-bottom-block{
+    display: inline-block;
+}
+
+.burgers_left-bottom-icon,
+.burgers_left-bottom-num,
+.burgers_left-bottom-kkal{
+    color: #fff;
+    opacity: .6;
+    font-family: 'gagalin';
+}
+
+.burgers_left-bottom-icon{
+    position: absolute;
+    fill: #fff;
+    fill-opacity: .6;
+}
+
+.burgers_left-bottom-num{
+    font-size: 20px;
+    padding-top: 26px;
+    padding-left: 14px;
+}
+
+.burgers_left-bottom-kkal{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.burgers_right-block{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.burgers_right-top-text{
+    width: 100%;
+    margin-top: 30px;
+    font-weight: 400;
+    // fill: #fff;
+}
+
+.burgers_right-bottom-left,
+.burgers_right-bottom-right{
+    float: left;
+    // width: 50%;
+    margin-top: 15px;
+}
+
+.burgers_right-bottom-left{
+    width: 55%;
+}
+
+.burgers_right-bottom-right{
+    width: 45%;
+}
+
+.burgers_right-bottom-number,
+.burgers_right-bottom-price{
+    float: left;
+    margin-right: 5px;
+    display: contents;
+    font-family: 'gagalin';
+    color: rgb(228, 80, 40);
+}
+
+.burgers_right-bottom-number{
+    font-size: 72px;
+}
+
+.burgers_right-bottom-price{
+    font-size: 30px;
+}
+
+.burgers_right-bottom-right{
+    margin-top: 70px;
+}
+
+.burgers_right-bottom-button{
+    width: max-content;
+    height: max-content;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.2);
+    }
+
+    &:active{
+        transform: scale(0.95);
+    }
+}
+
+.burgers_right-button{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(228, 80, 40);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 17px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        box-shadow: black 0px 0px 1px;
+        text-shadow: black 0px 0px 5px;
+    }
+
+    &:active{
+        box-shadow: black 0px 0px 0px;
+        text-shadow: black 0px 0px 0px;
+    }
+}
+
+
+.pulse_burg{
+    animation: pulse 1s infinite;
+
+    // &:hover {
+    //     animation: pulse 2s infinite;
+    // }
+    
+}
+
+@keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(247, 247, 247, 0.6);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(247, 247, 247, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(224, 197, 39, 0);
+    }
+}

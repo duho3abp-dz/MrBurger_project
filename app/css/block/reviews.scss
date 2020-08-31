@@ -1,0 +1,202 @@
+.reviews_list{
+    height: 100%;
+}
+
+.reviews_item{
+    width: 25%;
+    height: 50%;
+    float: left;
+}
+
+.review{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    &:hover{
+        .review_hover{
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+}
+
+.review_pic{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+.review_hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(20,20,20,.7);
+    transform: scale(0.95);
+    opacity: 0;
+    transition: 0.2s;
+    padding: 50px 20px;
+}
+
+.reviews_title{
+    margin-bottom: 30px;
+    font-family: 'gagalin';
+    color: #ffffff;
+}
+
+.reviews_text{
+    font-weight: 300;
+    color: #ffffff;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    line-height: 25px;
+}
+
+.reviews_batton{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: rgb(51, 53, 55);
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        font-weight: 600;
+        font-size: 15px;
+        box-shadow: black 0px 0px 20px;
+        text-shadow: black 0px 0px 10px;
+    }
+    
+    &:active{
+        font-weight: 400;
+        font-size: 13.5px;
+        box-shadow: black 0px 0px 8px;
+        text-shadow: black 0px 0px 3px;
+    }
+}
+
+.hidden-content{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 460px;
+    height: 254px;  
+    padding: 30px 20px;
+}
+
+.hidden_title{
+    color: #2f3234;
+    font-family: 'gagalin';
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.hidden_text{
+    height: 160px;
+    overflow: auto;
+    font-weight: 300;
+    color: #2f3234;
+    font-family: 'ubuntu';
+    font-size: 14px;
+    line-height: 22px;
+}
+
+// .reviews_sections{
+//     float: left;
+//     width: 25%;
+//     height: 50%;
+// }
+
+// .reviews_sections:hover{
+//     .reviews_sections-wrapper{
+//         background: #252424bb;
+//     }
+//     .reviews_block{
+//         display: block;
+//     }
+// }
+
+// .reviews_sections-wrapper{
+//     width: 100%;
+//     height: 100%;
+//     padding: 50px 20px;
+// }
+
+// .spilberg1{
+//     background: url(../pictures/reviews/reviews_1.jpg) center center no-repeat;
+//     background-size: cover;
+// }
+// .spilberg2{
+//     background: url(../pictures/reviews/reviews_2.jpg) center center no-repeat;
+//     background-size: cover;
+// }
+// .spilberg3{
+//     background: url(../pictures/reviews/reviews_3.jpg) center center no-repeat;
+//     background-size: cover;
+// }
+// .spilberg4{
+//     background: url(../pictures/reviews/reviews_4.jpg) center center no-repeat;
+//     background-size: cover;
+// }
+// .spilberg5{
+//     background: url(../pictures/reviews/reviews_5.jpg) center center no-repeat;
+//     background-size: cover;
+// }
+// .spilberg6{
+//     background: url(../pictures/reviews/reviews_6.jpg) center center no-repeat;
+//     background-size: cover;
+// }
+// .spilberg7{
+//     background: url(../pictures/reviews/reviews_7.jpg) center center no-repeat;
+//     background-size: cover;
+// }
+// .spilberg8{
+//     background: url(../pictures/reviews/reviews_8.jpg) center center no-repeat;
+//     background-size: cover;
+// }
+
+// .reviews_block{
+//     width: 100%;
+//     height: 100%;
+//     display: none;
+// }
+
+// .reviews_block-title{
+//     margin-bottom: 30px;
+//     font-family: 'gagalin';
+//     color: #ffffff;
+// }
+
+// .reviews_block-text{
+//     font-weight: 300;
+//     color: #ffffff;
+//     width: 100%;
+//     height: 60%;
+//     margin-bottom: 30px;
+//     overflow: auto;
+// }
+
+// .reviews_batton{
+//     text-decoration: none;
+//     color: #ffffff;
+//     padding: 10px 15px;
+//     font-weight: 400;
+//     font-size: 13px;
+//     border-radius: 5px;
+//     background-color: rgb(51, 53, 55);
+// }
+
+// .reviews_info{
+//     display: none;
+// }

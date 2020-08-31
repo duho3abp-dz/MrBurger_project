@@ -1,0 +1,144 @@
+.menu{
+    background: url(../pictures/blocks/menu_bg.jpg) center center no-repeat;
+    background-size: cover; // что бы картинка растягивалась на всю секцию и занимал все ее пространство
+    position: relative;
+}
+
+.menu_sections{
+    height: 100%;
+    position: relative;
+}
+
+.menu_title_position{
+    position: relative;
+    display: inline-block;
+    top: 110px;
+    left: 90px;
+
+}
+
+.menu_list{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.menu_list-block{
+    height: 100%;
+    float: left;
+}
+
+.menu_list-title,
+.menu_list-description{
+    float: left;
+    height: 100%;
+}
+
+.menu_list-title{
+    width: 80px;
+    overflow: hidden;
+    display: block;
+
+    &:hover .menu_list-name{
+        color: #e7b247;
+        font-size: 45px;
+        height: 90px;
+        text-shadow: black 0px 4px 1px;
+    }
+
+    &:active .menu_list-name{
+        color: #e7b247;
+        font-size: 42.5px;
+        height: 85px;
+        text-shadow: black 0px 2px 1px;
+    }
+
+    &:hover .menu_list-wrapper{
+        background: #2f3234d0;
+    }
+
+    &:active .menu_list-wrapper{
+        background: #2f3234f3;
+    }
+}
+
+// .meat, .vega, .diet{
+//     background-size: cover; 
+// }
+
+.meat{
+    background: url(../pictures/menu/meat_menu.jpg) center center no-repeat;
+    // background-size: cover; 
+}
+
+.vega{
+    background: url(../pictures/menu/vega_menu.jpg) center center no-repeat;
+    // background-size: cover; 
+}
+
+.diet{
+    background: url(../pictures/menu/diet_menu.jpg) center center no-repeat;
+    // background-size: cover; 
+}
+
+.menu_list-wrapper{
+    background: #2f32348e;
+    height: 100%;
+    width: 80px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu_list-name{
+    transform: rotate(-90deg);
+    display: block;
+    top: 50%;
+    height: 80px;
+    margin-top: -40px;
+    position: absolute;
+    white-space: nowrap;
+    font-family: 'gagalin';
+    font-size: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    width: 650px;
+    left: 50%;
+    margin-left: -310px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu_list-description{
+    width: 0px;
+    background: #2f3234e0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu_active{
+    .menu_list-description{
+        width: 550px;
+    }
+    
+    .menu_list-name{
+        color: #e7b247;
+        text-align: left;
+        font-size: 41px;
+        height: 82px;
+        text-shadow: black 0px 1.5px 1px;
+    }
+}
+
+.menu_list-text{
+    width: 550px;
+    height: 100%;
+    overflow: auto;
+    font-weight: 300;
+    color: #ffffff;
+    padding-left: 35px;
+    padding-right: 35px;
+    line-height: 22px;
+}

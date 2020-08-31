@@ -1,0 +1,67 @@
+@media screen and (max-width: 960px) {
+    .title_all, .title_all-black, .title_all-white{
+        font-size: 65px;
+    }
+
+    .content_left-img-burger{
+        margin-left: 11px;
+        margin-top: -55px;
+    }
+
+    .burgers_right-bottom-left{
+        width: 70%;
+    }
+    
+    .burgers_right-bottom-right{
+        width: 30%;
+    }
+
+    .reviews_text{
+        height: 70%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+
+    // ---------------------hero---------------------
+    .hero_header-left{
+        display: none;
+    }
+
+    .hero_header-right{
+        width: 100%;
+    }
+
+    .content_left-img-burger{
+        margin-top: -30px;
+    }
+
+    // ---------------------team---------------------
+    .team_bottom-left-img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .team_bottom-block-wrapper{
+        height: 100px;
+    }
+
+    .team_bottom-right-text{
+        height: 50px;
+    }
+
+    // ---------------------menu---------------------
+    .menu_list-text{
+        width: 500px;
+    }
+
+    .menu_active .menu_list-name {
+        text-align: center;
+    }
+
+    // ---------------------reviews---------------------
+    .reviews_text{
+        line-height: 20px;
+    }
+
+}

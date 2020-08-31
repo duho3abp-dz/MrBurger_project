@@ -1,0 +1,240 @@
+.hero{
+    background: url(../pictures/blocks/hero_bg.jpg) center center no-repeat;
+    background-size: cover; // что бы картинка растягивалась на всю секцию и занимала все ее пространство
+    position: relative;
+}
+
+header{
+    height: 14%;
+}
+
+.hero_header-left,
+.hero_header-right{
+    float: left;
+    height: 100%;
+}
+
+.hero_header-left{
+    width: 15%;
+}
+
+.hero_head-logo{
+    margin-top: 12px;
+}
+
+.hero_header-right{
+    width: 85%;
+    position: relative;
+}
+.hero_header-slide{
+    position: absolute;
+    width: max-content;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+// .slide_items{
+//     text-align: center;
+// }
+
+.slide_items-slider{
+    height: 50px;
+    display: inline-block;
+    padding: 10px 17px;
+    position: relative;
+}
+
+// .slide_items-slider:hover .slide_items-slider-click:before{
+//     display: none;
+// }
+
+.slide_items-button{
+    width: max-content;
+    height: max-content;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.3);
+    }
+
+    &:active{
+        transform: scale(1);
+    }
+}
+
+.slide_items-slider-click{ 
+    vertical-align: middle;  
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    opacity: .95;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        // font-weight: 600;
+        // font-size: 17px;
+        text-shadow: black 0px 1px 6px;
+        opacity: 1;
+    }
+
+    &:active{
+        // font-weight: 400;
+        // font-size: 14px;
+        // text-shadow: none;
+        text-shadow: #fff 0px 0px 5px;
+        opacity: 1;
+    }
+}
+
+.slide_items-slider:before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    background: #ffffff;
+    top: 40%;
+    right: -4px;
+    transform: translateY(-50%);
+
+}
+
+.hero_before{
+    &:before{
+        display: none;
+    }
+}
+
+.hero_slide-order-button{
+    vertical-align: middle;
+    border-radius: 5px;
+    background-color: rgb(228, 80, 40);
+    padding: 10px 17px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        // padding: 12px 20px;
+        // font-weight: 600;
+        // font-size: 16px;
+        box-shadow: black 0px 2px 10px;
+        text-shadow: black 0px 0px 7px;
+    }
+
+    &:active{
+        // padding: 11px 18.5px;
+        // font-weight: 400;
+        // font-size: 15px;
+        box-shadow: black 0px 0px 3px;
+        text-shadow: black 0px 0px 3px;
+    }
+
+    &:before{
+        display: none;
+    }
+}
+
+@keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
+
+// .slide_items-slider-click:hover{
+//     border-radius: 5px;
+//     background-color: rgb(228, 80, 40);
+// }
+
+.hero_content{
+    height: 86%;
+}
+
+.hero_content-left,
+.hero_content-right{
+    float: left;
+    height: 100%;
+}
+
+.hero_content-left{
+    width: 51%;
+    position: relative;
+}
+
+.hero_content-pic{
+    width: 100%;
+    max-width: 450px;
+    height: max-content;
+    position: absolute;
+    top: 20%;
+}
+
+.content_left-img-burger{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -70px;
+}
+
+.content_left-svg-drops{
+    width: 100%;
+    position: absolute;
+}
+
+.hero_content-right{
+    width: 49%;
+    position: relative;
+
+    .hero_content-block{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.hero_content-right-text{
+    font-family: 'lifehack';
+    font-size: 65px;
+    color: #ffff;
+}
+
+.down_arrow{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.down_arrow-pic{
+    width: 33px;
+    height: 16px;
+    fill: #fff;
+    fill-opacity: .9;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+    // width: 40px;
+    // height: 20px;
+    fill-opacity: 1;
+    transform: scale(1.5);
+    }
+
+    &:active{
+        // width: 33px;
+        // height: 16px;
+        fill-opacity: 1;
+        transform: scale(0.5);
+    }
+}

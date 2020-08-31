@@ -1,0 +1,221 @@
+.order{
+    background: url(../pictures/blocks/order_bg.jpg) center center no-repeat;
+    background-size: cover; // что бы картинка растягивалась на всю секцию и занимал все ее пространство
+    position: relative;
+    overflow: hidden;
+}
+
+.order_top{
+    height: 40%;
+    position: relative;
+}
+
+.order_top-title{
+    position: absolute;
+    width: max-content;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.order_bottom{
+    height: 60%;
+}
+
+.order_bottom-left,
+.order_bottom-right{
+    width: 50%;
+    float: left;
+}
+
+.order_bottom-left-top,
+.order_bottom-left-center,
+.order_bottom-left-bottom{
+    margin-bottom: 20px;
+}
+
+.order_bottom-left-top-elem,
+.order_bottom-left-center-elem,
+.order_bottom-left-bottom-elem{
+    padding-right: 20px;
+    float: left;
+    width: 100%;
+}
+
+.order_bottom-left-top-elem{
+    width: 50%;
+}
+
+.order_bottom-left-bottom-elem{
+    width: 25%;
+}
+
+.order_bottom-title{
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 10px;   
+}
+
+.order_bottom-input{
+    width: 100%;
+    height: 35px;
+    border-width: 1px;
+    border-color: rgb(207, 205, 202);
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'ubuntu';
+    font-size: 14px;
+    font-weight: 300; 
+    padding-left: 20px;
+}
+
+// .order_bottom-input:active{
+//     border-width: 2px;
+//     border-color: rgb(231, 179, 71);
+// }
+
+.order_bottom-right-top,
+.order_bottom-right-center,
+.order_bottom-right-bottom,
+.order_bottom-right-footer{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.order_textarea{
+    height: 115px;
+    resize: none;
+    padding: 10px 20px;
+}
+
+.order_bottom-right-center-elem{
+    margin-right: 20px;
+    float: left;
+}
+
+.order_bottom-radio,
+.order_bottom-title{
+    float: left;
+}
+
+.order_bottom-radio{
+    margin-right: 10px;
+}
+
+.order_bottom-right-checkbox{
+    float: left;
+    margin-right: 10px;
+}
+
+// .order_bottom-right-footer-left,
+// .order_bottom-right-footer-right{
+//     display: inline-block;
+//     width: 49%;
+//     height: 60px;
+//     position: relative;
+// }
+
+.order_bottom-right-submit{
+    margin-right: 15px;
+    border-radius: 5px;
+    border-color: rgb(228, 80, 40);
+    background-color: rgb(228, 80, 40);
+    color: #ffffff;
+    padding: 10px 15px; 
+    font-family: 'ubuntu';
+    font-weight: 400;
+    cursor: pointer;
+    // position: absolute;
+    transition: all .2s ease-in-out;
+
+    &:hover{
+        // font-weight: 600;
+        // font-size: 16px;
+        transform: scale(1.2);
+        box-shadow: black 0px 2px 10px;
+        text-shadow: black 0px 0px 7px;
+    }
+
+    &:active{
+        // font-weight: 500;
+        // font-size: 14px;
+        transform: scale(0.95);
+        box-shadow: black 0px 0px 0px;
+        text-shadow: black 0px 0px 0px;
+    }
+}
+
+.order_bottom-right-reset{
+    background: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    font-family: 'ubuntu';
+    font-weight: 300;
+    font-size: 14px;
+    padding: 10px 15px; 
+    cursor: pointer;
+    opacity: 0.8;
+    // position: absolute;
+    transition: .2s;
+
+    &:hover{
+        // font-weight: 600;
+        // font-size: 15px;
+        transform: scale(1.3);
+        text-shadow: black 0px 2px 10px;
+        opacity: 1;
+    }
+
+    &:active{
+        // font-weight: 500;
+        // font-size: 14px;
+        transform: scale(.95);
+        text-shadow: black 0px 0px 3px;
+        opacity: 1;
+    }
+}
+
+#done{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 1, 0.5);
+    width: 196px;
+    height: 106px; 
+    padding: 15px;
+    position: relative;
+}
+
+.hidden-content-submit-title{
+    width: max-content;
+    font-family: 'ubuntu';
+    font-weight: 400;
+    font-size: 14px;
+    color: #2f3234;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.order_bottom-input:focus{
+    outline-style: none;
+    border-color: #e7b347;
+    border-width: 3px;
+}
+
+.order_focus:focus{
+    border-width: 1px;
+    outline-style: none;
+    border-radius: 5px;
+    border-color: #e7b347;
+}
+
+#modal {
+    display: none;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 0 40px 0;
+    text-align: justify;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}

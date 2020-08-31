@@ -1,0 +1,661 @@
+@media screen and (max-width: 480px) {
+    .container{
+        max-width: 95%;
+    }
+
+    // ---------------------burgers---------------------
+    .burgers_title-laptop-white{
+        font-size: 48px;
+        top: 90%;
+        transform: translateX(-50%) translateY(-90%);
+        line-height: 35px;
+    }
+
+    .burgers_left-block:hover .burgers_left-ingridients{
+        height: 305px;
+    }
+
+    .burgers_left{
+        height: 40%;
+    }
+
+    .burgers_left-line{
+        height: 42px;
+    }
+
+    .burgers_right-top-text{
+        font-size: 13px;
+    }
+
+    // ---------------------team---------------------
+    .team_block{
+        width: 75%;
+    }
+
+    // ---------------------reviews---------------------
+    .reviews_phones-none{
+        display: none;
+    }
+
+    .reviews_item{
+        width: 50%;
+        height: 33.333333333333333333333333333333333333333333%;
+        float: left;
+    }
+
+    .reviews_text{
+        height: 65%;
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    // ---------------------order---------------------
+    .order_top-title{
+        line-height: 42px;
+        bottom: 12px;
+    }
+
+    .order_bottom-left-bottom, .order_bottom-left-center, .order_bottom-left-top {
+        margin-bottom: 10px;
+    }
+
+    .order_bottom-left-top-elem, .order_bottom-left-center-elem, .order_bottom-left-bottom-elem {
+        padding-right: 5px;
+    }
+
+    .order_bottom-right-top{
+        margin-right: 5px;
+    }
+
+    // ---------------------footer---------------------
+    .ymaps-2-1-76-balloon{
+        width: 410px;
+    }
+
+    .baloon_text{
+        font-size: 13px;
+    }
+
+    .footer_adress{
+        font-size: 12px;
+    }
+
+
+    .footer_phone-wrap:hover{
+        transform: scale(1.05);
+    }
+
+    // ---------------------fixed_menu---------------------
+    .fixed_menu{
+        transform: rotate(-90deg);
+        right: 50%;
+        top: -62px;
+    }
+
+    .fixed_menu-title{
+        transform: rotate(90deg);
+        right: 2px;
+        text-align: center;
+        transition: 0s;
+    }
+
+}
+
+@media screen and (max-width: 464px) {
+    .container{
+        max-width: 98%;
+    }
+
+    .menu_list-text{
+        width: 250px;
+    }
+
+    .menu_list-text{
+        font-size: 13px;
+        line-height: 13px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    // ---------------------hero---------------------
+    .title_all, .hero_content-right-text{
+        font-size: 45px;
+    }
+
+    .hero_content-left{
+        bottom: 10%;
+    }
+    
+    .content_left-img-burger{
+        left: 48%;
+        top: 50%;
+        width: 70%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    
+    .content_left-svg-drops{
+        width: 65%;
+        top: -8%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .hero_content-right{
+        height: 33%;
+    }
+    
+    .menu_list-text{
+        width: 200px;
+    }
+
+    .down_arrow{
+        bottom: 15px;
+    }
+
+    // ---------------------best---------------------
+    .best_head{
+        height: 23%;
+    }
+
+    .best_content-top{
+        font-size: 18px;
+    }
+
+    .best_content-text{
+        font-size: 12px;
+    }
+
+    // ---------------------burgers---------------------
+    
+    .burgers_title-laptop-white{
+        font-size: 40px;
+    }
+    
+    .burgers_left-pic-wrapper{
+        width: 53%;
+    }
+
+    // ---------------------team---------------------
+    .team_top{
+        height: 29%;
+    }
+
+    .team_top-name{
+        top: 40%;
+    }
+    
+    // ---------------------reivews---------------------
+    .reviews_text{
+        font-size: 11px;
+        line-height: 13px;
+        margin-bottom: 15px;
+    }
+
+    // ---------------------order---------------------
+    .order_top-title{
+        line-height: 34px;
+        bottom: 20px;
+    }
+
+    .order_bottom-title{
+        margin-bottom: 0px;
+    }
+
+    .order_bottom-left-bottom, .order_bottom-left-center, .order_bottom-left-top{
+        margin-bottom: 0px;
+    }
+
+    .order_bottom-right-bottom, .order_bottom-right-center, .order_bottom-right-footer, .order_bottom-right-top {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    // ---------------------fixed_menu---------------------
+    .fixed_menu{
+        top: -72px;
+    }
+}
+
+@media screen and (max-height: 414px) {
+    .container{
+        max-width: 90%;
+    }
+
+    // ---------------------hero---------------------
+    .title_all{
+        font-size: 50px;   
+    }
+
+    .hero_slide-order-button, .slide_items-slider-click {
+        font-size: 11px;
+    }
+
+    .hero_content-left,
+    .hero_content-right{
+        float: left;
+        height: 100%;
+    }
+
+    .hero_content-left{
+        width: 50%;
+        position: relative;
+    }
+
+    .hero_content-pic{
+        width: 100%;
+        max-width: 450px;
+        height: max-content;
+        position: absolute;
+        top: 20%;
+    }
+
+    .content_left-svg-drops{
+        width: 90%;
+        top: -70px;
+        left: 24px;
+        position: absolute;
+    }
+
+    .hero_content-right{
+        width: 49%;
+        position: relative;
+    }
+
+    .hero_content-block{
+        text-align: left;
+    }
+
+    .hero_content-right-text{
+        font-size: 40px;
+    }
+    
+    // ---------------------best---------------------
+    .best_head{
+        height: 28%;
+        bottom: 15px;
+    }
+
+    .best_content-top{
+        font-size: 20px;
+    }
+
+    .best_content-text{
+        font-size: 12px;
+    }
+
+    // ---------------------burgers---------------------
+    .burgers_title-laptop{
+        display: none;
+    }
+
+    .burgers_left,
+    .burgers_right{
+        float: left;
+        width: 50%;
+        height: 100vh;
+    }
+
+    .burgers_left-container{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        height: max-content;
+    }
+
+    .burgers_left-center, .burgers_left-bottom{
+        position: relative;
+    }
+
+    .burgers_left-pic-wrapper{
+        position: relative;
+    }
+
+    .burgers_left-pic-wrapper{
+        width: 90%;
+    }
+
+    .burgers_right-top-title{
+        display: block;
+        font-size: 40px;
+        line-height: 30px;
+    }
+
+    .burgers_right-top-text{
+        text-align: left;
+        width: 85%;
+    }
+
+    .burgers_right-bottom-left{
+        width: 55%;
+    }
+
+    .fp-controlArrow.fp-prev {
+        left: 5px;
+    }
+
+    .fp-controlArrow.fp-next {
+        right: 30px;
+    }
+
+    // ---------------------team---------------------
+    .team_block{
+        width: 60%;
+    }
+
+    .team_top {
+        height: 23%;
+    }
+
+    .team_top-name{
+        top: 20%;
+    }
+
+    .team_bottom-list {
+        margin-bottom: 15px;
+    }
+
+    // ---------------------menu---------------------
+    .menu_list-description{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .menu_list-text{
+        line-height: 18px;
+    }
+    
+    // ---------------------reviews---------------------
+    .review_hover{
+        padding: 10px 15px;
+    }
+
+    .reviews_title{
+        margin-bottom: 6px;
+    }
+
+    .reviews_text{
+        height: 65%;
+        margin-bottom: 20px;
+        line-height: 15px;
+        font-size: 12px;
+    }
+    
+    // ---------------------order---------------------
+    .order_bottom-left,
+    .order_bottom-right{
+        width: 50%;
+        float: left;
+    }
+
+    .order_bottom-input{
+        padding-left: 5px;
+    }
+
+    // ---------------------fixed_menu---------------------
+    .fixed_menu{
+        right: 5px;
+        top: 40px;
+    }
+}
+
+@media screen and (max-height: 375px) and (max-width: 812px) {
+    .hero_content-pic{
+        width: 80%;
+    }
+
+    .content_left-img-burger{
+        top: -45px;
+        left: 20px;
+    }
+
+    .content_left-svg-drops{
+        left: 42px;
+    }
+
+    // ---------------------burgers---------------------
+    .burgers_left-pic-wrapper{
+        width: 80%;
+    }
+
+    // ---------------------team---------------------
+    .team_block{
+        width: 65%;
+    }
+
+    .team_top{
+        height: 19%;
+    }
+
+    .team_top-name{
+        top: 5%;
+    }
+
+    .team_bottom-list{
+        margin-bottom: 10px;
+    }
+
+    // ---------------------menu---------------------
+    .menu_list-text{
+        width: 430px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .menu_list-title{
+        width: 65px;
+
+        &:hover .menu_list-name{
+            font-size: 33px;
+        }
+    }
+
+    .menu_list-name{
+        height: 80px;
+        margin-top: -40px;
+        font-size: 30px;
+    }
+
+    // ---------------------reviews---------------------
+    .reviews_title{
+        font-size: 12px;
+    }
+
+    .reviews_text{
+        line-height: 11px;
+    }
+
+    // ---------------------order---------------------
+    .order_top{
+        height: 23%;
+    }
+
+    .order_bottom-right-bottom, .order_bottom-right-center, .order_bottom-right-footer, .order_bottom-right-top {
+        margin-bottom: 5px;
+    }
+
+    .order_textarea {
+        height: 100px;
+    }
+}
+
+@media screen and (max-height: 375px) and (max-width: 667px) {
+    .hero_content-pic{
+        width: 100%;
+        max-width: 450px;
+        height: max-content;
+        position: absolute;
+        top: 20%;
+    }
+
+    .content_left-svg-drops{
+        width: 90%;
+        top: -70px;
+        left: 24px;
+        position: absolute;
+    }
+
+}
+
+@media screen and (max-height: 320px) {
+    // ---------------------hero---------------------
+    .hero_content {
+        height: 100%;
+    }
+
+    .hero_header{
+        display: none;
+    }
+
+    .content_left-img-burger{
+        top: -14px;
+        left: 22px;
+    }
+
+    .title_all{
+        font-size: 37px;
+    }
+
+    .hero_content-right-text{
+        font-size: 33px;
+    }
+
+    .fixed_menu-title{
+        font-size: 12px;
+        bottom: 2px;
+    }
+
+    // ---------------------best---------------------
+    .title_all-black{
+        font-size: 37px;
+    }
+
+    .best_content-img {
+        margin-bottom: 5px;
+    }
+
+    .best_content-top{
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    .best_content-text{
+        font-size: 11px;
+    }
+
+    // ---------------------burgers---------------------
+    .burgers_left-block:hover .burgers_left-ingridients{
+        height: 277px;
+    }
+
+    .burgers_left-ingridients {
+        width: 200px;
+    }
+
+    .burgers_left-list {
+        margin: 10px 20px;
+    }
+
+    .burgers_left-line{
+        height: 35px;
+    }
+
+    .burgers_left-line-img{
+        width: 50px;
+    }
+
+    .burgers_left-line-svg{
+        width: 70%;
+    }
+
+    .burgers_left-line-gramm, .burgers_left-line-text {
+        width: 23%;
+    }
+
+    .burgers_left-line-gramm{
+        width: 45%;
+    }
+
+    .burgers_left-line-text{
+        font-size: 12px;
+    }
+
+    .burgers_right-top-text{
+        width: 80%;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .burgers_right-bottom-left{
+        margin-top: 5px;
+    }
+
+    .burgers_right-top-title{
+        font-size: 32px;
+        line-height: 25px;
+    }
+
+    .burgers_right-bottom-number{
+        font-size: 60px;
+    }
+
+    .burgers_right-bottom-price{
+        font-size: 20px;
+    }
+
+    // ---------------------team---------------------
+    .team_bottom-list {
+        margin-bottom: 5px;
+    }
+
+    // ---------------------menu---------------------
+    .menu_list-text{
+        width: 350px;
+    }
+
+    // ---------------------reviews---------------------
+    .reviews_phones-none{
+        display: none;
+    }
+
+    .reviews_item{
+        width: 33.33333333333333333333333333333333%;
+        // height: 33.33333333333333333333333333333333%;
+        float: left;
+    }
+
+    .reviews_text{
+        margin-bottom: 10px;
+    }
+
+    // ---------------------order---------------------
+    .title_all{
+        width: max-content;
+    }
+
+    .order_bottom-left-center-elem, .order_bottom-left-top-elem, .order_bottom-left-bottom-elem {
+        padding-right: 5px;
+    }
+
+    .order_bottom-right-top{
+        margin-right: 5px;
+    }
+
+    .order_bottom-title {
+        margin-bottom: 3px;
+    }
+
+    .order_bottom-title {
+        font-size: 12px;
+    }
+
+    // ---------------------order---------------------
+    // .ymaps-2-1-76-balloon{
+    //     width: 300px;
+    //     height: 100px;
+    // }
+
+    .baloon_text{
+        font-size: 13px;
+    }
+}

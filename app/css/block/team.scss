@@ -1,0 +1,147 @@
+.team{
+    background: url(../pictures/blocks/team_bg.jpg) center center no-repeat;
+    background-size: cover; // что бы картинка растягивалась на всю секцию и занимал все ее пространство
+    position: relative;
+}
+
+.team_block{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    background: rgba(#333537, .93%);
+    padding: 0% 7% 0% 7%;
+    overflow: hidden;
+}
+
+.team_top{
+    height: 35%;
+    position: relative;
+}
+
+.team_top-name{
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.team_bottom{
+    height: 470px;
+}
+
+.team_bottom-list{
+    margin-bottom: 30px;
+}
+
+.team_bottom-batton{
+    height: 16px;
+    width: max-content;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'gagalin';
+    color: #ffffff;
+    margin-bottom: 10px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+        color: #e7b247;
+        font-size: 16px;
+        text-shadow: black -2px 2px 2px;
+    }
+
+    &:active{
+        font-size: 15px;
+        text-shadow: black -1px 1px 2px;
+    }
+
+    &:before{
+        content: "";
+        position: absolute;
+        display: block;
+        left: -19px;
+        top: 8px;
+        width: 0;
+        height: 0;
+        border-top: 7px solid #e7b247;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 0px solid transparent;
+        transform: rotate(0deg);
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+.team_bottom-block{
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.team_active{
+    .team_bottom-batton{
+        color: #e7b247;
+        font-size: 15.5px;
+        text-shadow: black -.5px .5px 2px;
+
+        &:hover{
+            color: #e7b247;
+            font-size: 16px;
+            text-shadow: black -2px 2px 2px;
+        }
+
+        &:active{
+            font-size: 15px;
+            text-shadow: black -1px 1px 2px;
+        }
+
+        &:before{
+            transform: rotate(-180deg);
+        }
+    }
+
+    .team_bottom-block{
+        height: 115px;
+    }
+}
+
+.team_bottom-block-wrapper{
+    height: 115px;
+    width: 100%;
+}
+
+.team_bottom-left,
+.team_bottom-right{
+    float: left;
+}
+
+.team_bottom-left{
+    width: 30%;
+}
+
+.team_bottom-left-img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.team_bottom-right{
+    width: 70%;
+    color: #ffffff;
+}
+
+.team_bottom-right-title{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.team_bottom-right-text{
+    font-weight: 300;
+    max-width: 295px;
+    height: 65px;
+    overflow: auto;
+}

@@ -1,0 +1,130 @@
+.map_content{
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+.ymaps-2-1-76-balloon{
+    border-radius: 8px;
+}
+
+.ymaps-2-1-76-balloon__layout{
+    border-radius: 8px;
+}
+
+.balloon_logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+   
+}
+
+.balloon_title{
+    font-family: 'gagalin';
+    font-size: 30px;
+    flex-direction: none;
+    position: absolute;
+    top: 15%;
+    font-weight: normal;
+}
+
+.baloon_text{
+    color: #58595a;
+    font-family: 'ubuntu';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.baloon_footer{
+    color: black;
+    font-family: 'ubuntu';
+    font-size: 16px;
+}
+
+.hint_title{
+    color: black;
+    font-family: 'ubuntu';
+    font-size: 14px;
+}
+
+.footer{
+    height: 60px;
+    background: url(../pictures/footer/footer_bg.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footer_wrapper{
+    height: max-content;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer_left,
+.footer_right{
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer_adress{
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.footer_phone-wrap{
+    width: max-content;
+    height: max-content;
+    transition: all 0.1s ease-in-out;
+
+    &:hover{
+        transform: scale(1.2);
+    }
+
+    &:active{
+        transform: scale(1.1);
+    }
+}
+
+.footer_phone-button{
+    text-decoration: none;
+}
+
+.footer_phone-pic{
+    vertical-align: middle;
+    fill: #e45028;
+    height: 11px;
+    width: 11px;
+}
+
+.footer_phone-number{
+    color: #e45028;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.footer_socials{
+    float: right;
+}
+
+.socials{
+    text-decoration: none;
+}
+
+.socials_icon{
+    line-height: 2rem;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+    transition: all 0.2s ease-in-out;
+    fill: #fff;
+    fill-opacity: .3;
+
+    &:hover{
+        fill-opacity: 1;
+    }
+}
